@@ -15,7 +15,11 @@ pub struct TikzPainter {
     insts: Vec<DrawInst>,
 }
 
-impl TikzPainter {}
+impl TikzPainter {
+    pub fn save(&self, file: &mut File) {
+        
+    }
+}
 
 pub struct TikzPlotter {}
 
